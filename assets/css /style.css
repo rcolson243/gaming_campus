@@ -94,6 +94,42 @@ ul {
     margin: 50px auto;
 }
 
+/* La selection icon part */
+.icon-part {
+    color: var(--white);
+    background: rgb(17, 16, 16);
+}
+
+.icon-part-container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list-icon-part {
+    text-align: center;
+    width: 450px;
+}
+
+.list-icon-part h3 {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.list-icon-part button {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
 
 
 
