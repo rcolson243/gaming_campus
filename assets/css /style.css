@@ -207,13 +207,69 @@ button {
 .main-news-container .link {
     margin-bottom: 40px;
     background-color: var(--black);
-
 }
 
 .link a {
     color: var(--violet);
     position: absolute;
     bottom: 10px;
-    
-    /* text-decoration: none; */
+    text-decoration: none;
 }
+
+/* la section contact */
+
+.contact {
+    width: 70%;
+    margin: 100px auto;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px
+}
+
+.contact-list list {
+    width: 250px;
+}
+
+.list p {
+    width: 250px;
+}
+
+.contact-medias {
+    display: grid;
+    grid-template-rows: 40% 60%;
+    grid-template-areas:
+    "logo social";
+    margin-top: 100px;
+    position: relative;
+}
+
+.contact-medias::after {
+    content: "";
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e2e1e1;
+}
+
+.medias-text {
+    grid-area: logo;
+}
+
+.medias-logos {
+    grid-area: social;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* le footer  */
