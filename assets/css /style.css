@@ -26,7 +26,7 @@ ul {
 /* la navbar  */
 
 .nav_list {
-    width: 80%;
+    width: 70%;
     display: flex;
     height: 70px;
     justify-content: space-between;
@@ -52,9 +52,37 @@ ul {
 }
 
 /* Header */
-
-.main-header {
-    /* margin: 0 auto; */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-image: url(/assets/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
+#logo {
+    text-align: center;
+}
+.main-header h1 {
+    color: var(--white);
+    margin: 25px 0 25px 0;
+    text-transform: uppercase;
+}
+
+.main-header button {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
 
 
