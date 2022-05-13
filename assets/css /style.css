@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
+    letter-spacing: 1px;
 }
 
 :root {
@@ -23,8 +23,7 @@ ul {
 }
 
 
-/* la navbar  */
-
+/* La navbar  */
 .nav_list {
     width: 70%;
     display: flex;
@@ -83,6 +82,18 @@ ul {
     font-size: 1.1rem;
     text-transform: uppercase;
 }
+
+/* header text */
+.header-text {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.header-text p {
+    text-align: center;
+    margin: 50px auto;
+}
+
 
 
 
