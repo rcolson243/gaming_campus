@@ -1,1 +1,1 @@
-# gaming_campus
+# gaming campus
