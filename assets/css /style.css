@@ -102,14 +102,16 @@ button {
 .icon-part {
     color: var(--white);
     background: rgb(17, 16, 16);
+    height: auto;
+    padding: 50px;
 }
 
 .icon-part-container {
-    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    text-align: center;
 }
 
 .list-icon-part {
@@ -120,6 +122,11 @@ button {
 .list-icon-part h3 {
     text-transform: uppercase;
     margin: 20px 0;
+}
+
+.icon-part p {
+    text-align: center;
+    /* margin: 20px 0; */
 }
 
 .list-icon-part button {
@@ -137,20 +144,17 @@ button {
 
  /* la section news part */
 .news-part {
-    background: #ededed;
-    padding: 50px 0;
+    width: 70%;
+    margin: 50px auto;
 }
 
 .header-news {
     display: flex;
-    justify-content: center;
-    padding: 50px 0;
-
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* flex-wrap: wrap; */
 }
 
-.left-part {
-    width: 50%;
-}
 
 .left-part h2 {
     text-transform: uppercase;
@@ -173,20 +177,15 @@ button {
     text-transform: uppercase;
 }
 
-.main-news {
-    margin: 0 auto;
-    width: 60%;
-}
-
 .main-news-container {
     display: flex;
     justify-content: space-between;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .main-news-container div {
     width: 300px;
-    margin-right: 100px;
 }
 
 #non-margin {

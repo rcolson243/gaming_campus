@@ -1,0 +1,16 @@
+@media screen and (max-width: 1256px) {
+    .navbar {
+        display: none;
+    }
+}
+@media screen and (max-width: 1027px) {
+    .icon-part-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 918px) {
+    .main-header {
+        text-align: center;
+    }
+}
