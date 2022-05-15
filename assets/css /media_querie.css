@@ -7,10 +7,28 @@
     .icon-part-container{
         flex-wrap: wrap;
     }
+
+    footer {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    footer ul {
+        width: 100%;
+        justify-content: center;
+    }
 }
 
-@media screen and (max-width: 918px) {
+@media screen and (max-width: 922px) {
     .main-header {
         text-align: center;
     }
+
+}
+
+@media screen and (max-width: 881px) {
+    .main-header {
+        text-align: center;
+    }
+
 }
