@@ -1,8 +1,30 @@
-@media screen and (max-width: 1256px) {
-    .navbar {
-        display: none;
+@media screen and (max-width: 1279px){
+    .header-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-news .left-part {
+        padding-bottom: 20px;
+    }
+
+    .header-news .right-part {
+        margin-bottom: 40px;
+    }
+
+    .main-news {
+        
     }
 }
+@media screen and (max-width: 1262px) {
+    .navbar {
+        display: none;
+
+    }
+}
+
 @media screen and (max-width: 1027px) {
     .icon-part-container{
         flex-wrap: wrap;
@@ -16,6 +38,11 @@
     footer ul {
         width: 100%;
         justify-content: center;
+    }
+
+    .header-news {
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
