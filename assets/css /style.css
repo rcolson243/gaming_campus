@@ -6,7 +6,6 @@
     letter-spacing: 1px;
 }
 
-
 :root {
     --violet: #654191;
     --white: #ffffff;
@@ -66,6 +65,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 70vh;
+    width: 100%;
     background-image: url(https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070);
     background-position: center;
     background-size: cover;
@@ -74,11 +74,17 @@ a {
 
 #logo {
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#logo img{
+    width: 100%;
 }
 .main-header h1 {
     color: var(--white);
     margin: 25px 0 25px 0;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .main-header button {
@@ -254,8 +260,9 @@ a {
 
 .contact-item h3 {
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--bleu_black);
+    font-size: 1rem;
 }
 
 .contact-item ul {
@@ -265,6 +272,34 @@ a {
 .contact-item ul li {
     margin: 0 10px;
 }
+
+.contact-item ul li a {
+    color: var(--bleu_black);
+}
+
+/* section pub  */
+.pub {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    border-top: #00041e solid 1px;
+}
+
+.pub h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.pub p {
+    margin: 20px auto;
+}
+
+.pub img {
+    margin: 10px;
+}
+
 
 
 /* le footer  */

@@ -40,29 +40,20 @@
     }
 }
 
-@media screen and (max-width: 922px) {
-    .main-header {
+@media screen and (max-width: 1131px) {
+    .pub {
+        margin: 0 auto;
         text-align: center;
     }
-
-}
-
-@media screen and (max-width: 881px) {
-    .main-header {
-        text-align: center;
+    
+    .pub h3 {
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: 10px;
     }
-
-}
-
-@media screen and (max-width: 600px)  {
-    .title-page {
-        font-size: 1.5rem;
-    }
-    .logo {
-        width: 200px;
-        
-    }
-    .logo img {
-        width: 100%;
+    
+    .pub img {
+        margin: 10px;
+        margin: 0 auto;
     }
 }
