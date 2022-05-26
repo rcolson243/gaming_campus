@@ -5,17 +5,11 @@
         align-items: center;
         text-align: center;
     }
-
     .header-news .left-part {
         padding-bottom: 20px;
     }
-
     .header-news .right-part {
         margin-bottom: 40px;
-    }
-
-    .main-news {
-        
     }
 }
 @media screen and (max-width: 1262px) {
@@ -58,4 +52,17 @@
         text-align: center;
     }
 
+}
+
+@media screen and (max-width: 600px)  {
+    .title-page {
+        font-size: 1.5rem;
+    }
+    .logo {
+        width: 200px;
+        
+    }
+    .logo img {
+        width: 100%;
+    }
 }
